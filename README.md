@@ -88,6 +88,6 @@ Make sure you have Node.js and npm (or yarn) installed on your machine.
 
 ## 📬 Contact
 
-Anurvesh - [your.email@example.com](mailto:your.email@example.com)
+Anurvesh - [your.email@example.com](mailto:munugalaanurveshreddy@gmail.com)
 
 Project Link: [https://github.com/Anurvesh23/portfolio](https://github.com/Anurvesh23/portfolio)
