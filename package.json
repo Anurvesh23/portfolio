@@ -2,24 +2,22 @@
   "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
-  
   "scripts": {
-  "dev": "next dev",
-  "build": "next build && next export",
-  "start": "next start"
-}
-
-"dependencies": {
-  "@emailjs/browser": "^4.4.1",
-  "@react-three/drei": "^9.102.6",
-  "@react-three/fiber": "^8.15.12",
-  "framer-motion": "^11.0.8",
-  "next": "14.0.0",
-  "react": "^18.2.0",
-  "react-dom": "^18.2.0",
-  "react-icons": "^4.12.0",
-  "three": "^0.158.0"
-},
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@react-three/drei": "^9.102.6",
+    "@react-three/fiber": "^8.15.12",
+    "framer-motion": "^11.0.8",
+    "next": "14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
+    "three": "^0.158.0"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
     "eslint": "^8.54.0",
