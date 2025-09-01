@@ -2,12 +2,13 @@
   "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
+  
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+  "dev": "next dev",
+  "build": "next build && next export",
+  "start": "next start"
+}
+
 "dependencies": {
   "@emailjs/browser": "^4.4.1",
   "@react-three/drei": "^9.102.6",
