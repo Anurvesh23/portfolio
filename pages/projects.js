@@ -1,5 +1,3 @@
-// A stylish gallery for your projects.
-
 import { motion } from 'framer-motion';
 
 const projects = [
