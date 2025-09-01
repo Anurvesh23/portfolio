@@ -22,10 +22,10 @@ const projects = [
       tags: ["FinTech", "AI", "Analytics", "Vercel"]
     },
     {
-      title: "Sentiment Analysis",
-      description: "Built a high-accuracy BERT-based deep learning model for multi-class sentiment analysis, achieving optimized performance through advanced text preprocessing and fine-tuning.",
-      link: null,
-      tags: ["Machine Learning", "NLP", "BERT", "Python"]
+      title: "WebRTC",
+      description: "A real-time communication application for video and audio streaming, built with WebRTC for peer-to-peer connections.",
+      link: "https://webrtc-vlm.netlify.app", 
+      tags: ["WebRTC", "Real-time Communication", "Video Streaming", "JavaScript"]
     }
 ];
 
