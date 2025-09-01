@@ -1,10 +1,12 @@
-// The stunning home page with a 3D animated background.
-
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Sphere, MeshDistortMaterial } from '@react-three/drei';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import Services from '../components/Services';
+
+// Dynamically import the AnimatedSphere with SSR turned off
+const AnimatedSphere = dynamic(() => import('../components/AnimatedSphere'), {
+  ssr: false,
+});
 
 const pageVariants = {
   initial: { opacity: 0, y: 20 },
@@ -31,19 +33,7 @@ const Home = () => {
         className="relative w-full h-screen flex items-center justify-center overflow-hidden"
       >
         <div className="absolute inset-0 z-0">
-          <Canvas>
-            <OrbitControls enableZoom={false} autoRotate autoRotateSpeed={0.5} />
-            <ambientLight intensity={0.5} />
-            <directionalLight position={[3, 5, 2]} />
-            <Sphere args={[1, 100, 200]} scale={2.0}>
-              <MeshDistortMaterial
-                color="#06b6d4"
-                attach="material"
-                distort={0.5}
-                speed={1.5}
-              />
-            </Sphere>
-          </Canvas>
+          <AnimatedSphere />
         </div>
         <div className="relative z-10 text-center p-4 max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-4">
